@@ -122,7 +122,7 @@
                                 <p>Rahma Setiani</p>
                             </div>
                             <div class="member-container" style="margin-left: 50px;">
-                                <img src="assets\img\rahma.png" alt="Anggota 2" class="member-photo">
+                                <img src="assets\img\maria.png" alt="Anggota 2" class="member-photo">
                                 <p>Anggota 2 - 21102136</p>
                                 <p>Maria Pasya Saranggih</p>
                             </div>
