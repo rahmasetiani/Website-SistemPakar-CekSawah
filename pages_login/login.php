@@ -20,6 +20,8 @@
     </style>
 </head>
 <body>
+    <br>
+    <br>
 <div class="container justify-content-center">
     <div class="row justify-content-center">
             <div class="card mt-5">
@@ -38,7 +40,7 @@
                                 <input name="txtPassword" type="password" class="form-control" id="txtPassword" maxlength="25">
                                 <div class="input-group-append">
                                     <span class="input-group-text" id="togglePassword">
-                                        <i class="fas fa-eye" id="eyeIcon"></i>
+                                        <i class="fas fa-eye-slash" id="eyeIcon"></i>
                                     </span>
                                 </div>
                             </div>
@@ -53,6 +55,10 @@
         </div>
     </div>
 </div>
+<br>
+<br>
+<br>
+<br>
 <br>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
