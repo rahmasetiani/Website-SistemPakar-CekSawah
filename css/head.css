@@ -1,0 +1,178 @@
+/* Gaya untuk header */
+#header {
+    background-color: #343a40; /* Warna latar belakang header */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.logo img {
+    max-width: 200px; /* Atur lebar maksimum logo */
+}
+
+#tampil_menu2 ul {
+    list-style: none;
+    padding: 0;
+    margin: 0; /* Hapus margin untuk tampilan yang lebih rapi */
+}
+
+#tampil_menu2 ul li {
+    display: inline;
+}
+
+#tampil_menu2 ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px; /* Atur padding agar menu terlihat lebih luas */
+    border-radius: 5px; /* Tambahkan border-radius untuk sudut yang lebih halus */
+    transition: background-color 0.3s ease; /* Animasi saat hover */
+}
+
+#tampil_menu2 ul li a:hover {
+    background-color: #555; /* Warna latar belakang saat dihover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Warna abu-abu untuk latar belakang luar */
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .sidebar {
+    background-color: #f0f0f0; /* Warna biru dongker lembut */
+    color: white;
+    padding: 20px;
+    width: 30%;
+    box-sizing: border-box;
+    border-right: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  .profile-pic {
+    background-color: #ffffff; /* Warna putih untuk box profil */
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .profile-pic img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 5px; /* Membuat gambar menjadi kotak dengan sedikit sudut membulat */
+    border: 3px solid #ffffff; /* Border warna putih */
+  }
+  
+  .title, .location, .email, .phone {
+    margin: 10px 0;
+  }
+  
+  .skills {
+    margin-top: 40px;
+  }
+  
+  .languages {
+    margin-top: 40px; /* Spasi lebih besar sebelum Languages */
+  }
+  
+  .box {
+    background-color: #ffffff; /* Warna biru dongker lembut untuk kotak */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 15px;
+    margin-top: 20px;
+    color: black; /* Warna teks putih */
+  }
+  
+  .white-box {
+    background-color: #ffffff; /* Warna putih untuk kotak di main-content */
+    color: black; /* Warna teks hitam */
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .skill-bar, .language-bar {
+    background-color: #ddd;
+    border-radius: 25px;
+    margin: 5px 0;
+  }
+  
+  .progress {
+    background-color: #4caf50;
+    height: 15px;
+    border-radius: 25px;
+  }
+  
+  .main-content {
+    padding: 20px;
+    width: 70%;
+    box-sizing: border-box;
+  }
+  
+  .key-summary, .work-experience, .education {
+    margin-bottom: 20px;
+  }
+  
+  .date {
+    font-style: italic;
+    color: #4caf50;
+  }
+  .date i {
+    margin-right: 5px;
+  }
+  
+  h2, h3 {
+    margin: 10px 0;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #4caf50; 
+    color: white;
+    margin-top: 20px;
+  }
+  
+  .social-media a {
+    color: white;
+    font-size: 20px;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .social-media a:hover {
+    color: #adb5bd;
+  }
+  
+  .social-media a:before {
+    font-family: FontAwesome;
+  }
+  
+  .contact-info {
+    margin-bottom: 15px;
+  }
+  .contact-info i {
+    margin-right: 11px;
+    color: #4caf50; /* Green color */
+
+  }
+
+  
