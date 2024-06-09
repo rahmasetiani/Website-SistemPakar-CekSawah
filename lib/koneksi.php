@@ -2,7 +2,7 @@
 $host = 'localhost';
 $user = 'root';
 $password = '';
-$database = 'dbhama';
+$database = 'db_hama';
 
 $konek = mysqli_connect($host, $user, $password, $database);
 

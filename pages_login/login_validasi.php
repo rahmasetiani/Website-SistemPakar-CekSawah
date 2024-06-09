@@ -31,7 +31,7 @@ if(isset($_POST['btnLogin'])){
 	}
 	else {
 		# LOGIN CEK KE TABEL USER LOGIN
-		$koneksidb = mysqli_connect("localhost","root","","dbvirus");
+		$koneksidb = mysqli_connect("localhost","root","","db_hama");
 		$mySql = "SELECT * FROM tbladmin WHERE pengguna='".$txtUser."' AND sandi='".$txtPassword."'";
 		$myQry = mysqli_query($koneksidb,$mySql) or die ("Query Salah : ".mysqli_error());
 		$myData= mysqli_fetch_array($myQry);
