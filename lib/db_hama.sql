@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 09, 2024 at 06:07 AM
+-- Generation Time: Sep 22, 2024 at 07:48 AM
 -- Server version: 10.4.32-MariaDB
 -- PHP Version: 8.0.30
 
@@ -57,46 +57,56 @@ CREATE TABLE `tblaturan` (
 --
 
 INSERT INTO `tblaturan` (`kd_aturan`, `kd_gejala`, `kd_penyakit`, `nl_prob`) VALUES
-(170, 'G23', 'P09', 0.9),
-(171, 'G24', 'P09', 0.9),
-(172, 'G03', 'P10', 0.7),
-(173, 'G09', 'P10', 0.9),
-(174, 'G25', 'P10', 0.9),
-(175, 'G26', 'P10', 0.9),
-(169, 'G15', 'P09', 0.9),
-(168, 'G32', 'P08', 0.9),
-(167, 'G22', 'P08', 0.9),
-(166, 'G21', 'P08', 0.9),
-(165, 'G20', 'P08', 0.8),
-(136, 'G01', 'P01', 0.9),
-(137, 'G02', 'P01', 0.9),
-(138, 'G03', 'P01', 0.7),
-(139, 'G04', 'P01', 0.9),
-(140, 'G05', 'P02', 0.5),
-(141, 'G06', 'P02', 0.1),
-(142, 'G07', 'P02', 0.8),
-(143, 'G08', 'P02', 0.9),
-(144, 'G25', 'P02', 0.9),
-(145, 'G27', 'P02', 0.5),
-(146, 'G28', 'P02', 0.9),
-(147, 'G29', 'P02', 0.9),
-(148, 'G30', 'P02', 0.8),
-(149, 'G09', 'P03', 0.9),
-(150, 'G10', 'P03', 0.9),
-(151, 'G11', 'P03', 0.1),
-(152, 'G25', 'P03', 0.9),
-(153, 'G12', 'P04', 0.7),
-(154, 'G13', 'P04', 0.8),
-(155, 'G14', 'P04', 0.9),
-(156, 'G15', 'P05', 0.9),
-(157, 'G16', 'P05', 0.9),
-(158, 'G17', 'P05', 0.9),
-(159, 'G01', 'P06', 0.9),
-(160, 'G15', 'P06', 0.9),
-(161, 'G18', 'P06', 0.9),
-(162, 'G31', 'P06', 0.9),
-(163, 'G15', 'P07', 0.9),
-(164, 'G19', 'P07', 0.9);
+(182, 'G08', 'P01', 0.9),
+(183, 'G09', 'P01', 0.9),
+(184, 'G13', 'P01', 0.9),
+(185, 'G18', 'P01', 0.8),
+(186, 'G19', 'P01', 0.7),
+(187, 'G15', 'P02', 0.6),
+(188, 'G19', 'P02', 0.7),
+(189, 'G24', 'P02', 0.6),
+(190, 'G04', 'P03', 0.7),
+(191, 'G05', 'P03', 0.8),
+(192, 'G06', 'P03', 0.8),
+(193, 'G23', 'P03', 0.7),
+(194, 'G15', 'P04', 0.6),
+(195, 'G22', 'P04', 0.9),
+(197, 'G28', 'P04', 0.8),
+(198, 'G07', 'P05', 0.6),
+(199, 'G14', 'P05', 0.8),
+(200, 'G16', 'P05', 0.8),
+(201, 'G02', 'P06', 0.7),
+(202, 'G05', 'P06', 0.8),
+(203, 'G13', 'P06', 0.9),
+(204, 'G02', 'P07', 0.7),
+(205, 'G05', 'P07', 0.8),
+(206, 'G13', 'P07', 0.9),
+(207, 'G18', 'P07', 0.8),
+(208, 'G04', 'P08', 0.7),
+(209, 'G10', 'P08', 0.8),
+(210, 'G22', 'P08', 0.9),
+(211, 'G01', 'P09', 0.6),
+(212, 'G04', 'P09', 0.7),
+(213, 'G16', 'P09', 0.8),
+(214, 'G22', 'P10', 0.9),
+(215, 'G29', 'P10', 0.9),
+(216, 'G03', 'P11', 0.6),
+(217, 'G16', 'P11', 0.8),
+(218, 'G01', 'P12', 0.6),
+(219, 'G06', 'P12', 0.8),
+(220, 'G20', 'P12', 0.8),
+(221, 'G11', 'P13', 0.7),
+(222, 'G13', 'P13', 0.9),
+(223, 'G21', 'P13', 0.7),
+(224, 'G17', 'P14', 0.7),
+(225, 'G23', 'P14', 0.7),
+(226, 'G11', 'P15', 0.7),
+(227, 'G17', 'P15', 0.7),
+(228, 'G30', 'P15', 0.7),
+(229, 'G12', 'P04', 0.7),
+(230, 'G25', 'P04', 0.7),
+(231, 'G26', 'P04', 0.6),
+(232, 'G27', 'P04', 0.6);
 
 -- --------------------------------------------------------
 
@@ -137,7 +147,12 @@ INSERT INTO `tblbantu` (`id_pengunjung`, `kd_gejala`) VALUES
 (270, 'G05'),
 (270, 'G04'),
 (270, 'G03'),
-(297, 'G32');
+(297, 'G32'),
+(322, 'G25'),
+(322, 'G09'),
+(322, 'G08'),
+(322, 'G07'),
+(322, 'G06');
 
 -- --------------------------------------------------------
 
@@ -156,7 +171,10 @@ CREATE TABLE `tblbantu_2` (
 --
 
 INSERT INTO `tblbantu_2` (`id_pengunjung`, `kd_penyakit`, `jml_gejala`) VALUES
-(270, 'P01', 110);
+(270, 'P01', 130),
+(322, 'P12', 2),
+(322, 'P03', 1),
+(322, 'P05', 1);
 
 -- --------------------------------------------------------
 
@@ -186,38 +204,36 @@ CREATE TABLE `tblgejala` (
 --
 
 INSERT INTO `tblgejala` (`kd_gejala`, `nm_gejala`) VALUES
-('G22', 'Rumpun padi mongering dan mati'),
-('G23', 'Adanya bercak-bercak kuning yang dapat dilihat di sepanjang tepi daun yang baru '),
-('G21', 'Adanya spot-spot kosong di dalam sawah'),
-('G20', 'Memotong tanaman pada pangkal batang'),
-('G19', 'Lapisan bawah daun berwarna putih'),
-('G18', 'Daun yang dimakan dimulai dari tepi daun dan hanya meninggalkan tulang daun  '),
-('G17', 'Daun padi yang terpotong menyerupai tabung'),
-('G15', 'Kerusakan berada pada daun padi'),
-('G13', 'Adanya spot-spot kosong pada petak sawah'),
-('G14', 'Tanaman dibagian pinggir (keliling petak) rusak'),
-('G12', 'Adanya tanaman padi yang roboh pada petak sawah'),
-('G11', 'Pada daun terdapat bercak bekas hisapan'),
-('G10', 'Beras berubah warna dan mengapur'),
-('G09', 'Kerusakan berada pada bulir padi'),
-('G08', 'Tanaman menjadi kerdil'),
-('G07', 'Gabah menjadi setengah berisi atau hampa'),
-('G06', 'Daun menjadi kering dan menggulung secara membujur'),
-('G05', 'Di daerah sekitar lubang bekas hisapan berubah warna menjadi coklat '),
-('G04', 'Adanya ngengat dipertanaman dan larva didalam batang padi'),
-('G03', 'Adanya beluk (malai hampa)'),
-('G16', 'Daun padi terpotong seperti digunting'),
-('G01', 'Kerusakan berada pada batang padi'),
-('G02', 'Anakan mati yang disebut sundep pada tanaman stadia vegetative'),
-('G24', 'Daun yang terserang mengalami perubahan bentuk'),
-('G25', 'Biji hampa'),
-('G26', 'Biji padi banyak yang hilang'),
-('G27', 'Warna tanaman berubah coklat kemerahan atau kuning'),
-('G28', 'Pada fase anakan jumlah anakan berkurang'),
-('G29', 'Pada fase bunting malai menjadi kerdil dan eksersi malai tidak lengkap'),
-('G30', 'Populasi tinggi bugburn atau hopperburn (tanaman kering seperti terbakar)'),
-('G31', 'Kerusakan berada pada malai padi'),
-('G32', 'Merusak akar muda di bagian tanah');
+('G27', 'Tanaman dibagian pinggir (keliling petak) rusak'),
+('G26', 'Adanya spot-spot kosong di dalam sawah'),
+('G25', 'Akar muda di bagian tanah dirusak'),
+('G24', 'Penurunan kesuburan tanah sekitar tanaman'),
+('G23', 'Tanaman terpapar atau tertekan secara fisik akibat hujan lebat atau angin kencan'),
+('G22', 'Kehilangan atau pengurangan hasil panen yang drastis'),
+('G21', 'Tanaman menunjukkan pertumbuhan tidak merata atau kerdil'),
+('G20', 'Penurunan pertumbuhan tanaman'),
+('G19', 'Kehadiran serangga kecil berwarna putih pada permukaan tanaman'),
+('G18', 'Kehadiran larva atau kotoran serangga'),
+('G17', 'Kerusakan fisik atau pembusukan'),
+('G12', 'Pembusukan pada bagian pangkal batang'),
+('G13', 'Penurunan hasil panen atau produksi'),
+('G14', 'Penurunan kualitas tanaman'),
+('G15', 'Pembengkakan tanah'),
+('G16', 'Kerusakan pada biji'),
+('G09', 'Kerusakan pada batang'),
+('G10', 'Batang kering atau patah'),
+('G11', 'Batang memiliki bercak berwarna gelap atau hitam'),
+('G08', 'Batang kosong atau berongga'),
+('G07', 'Daun memiliki bintik-bintik kecil berwarna putih atau abu-abu'),
+('G05', 'Daun kering dan layu'),
+('G06', 'Daun menjadi kering dan menggulung memanjang'),
+('G01', 'Daun menguning.'),
+('G02', 'Daun berlubang.'),
+('G03', 'Daun memiliki bercak coklat'),
+('G04', 'Daun terkulai'),
+('G28', 'Adanya tanaman padi yang roboh pada petak sawah'),
+('G29', 'Biji padi banyak yang hilang'),
+('G30', 'Beras berubah warna dan mengapur');
 
 -- --------------------------------------------------------
 
@@ -246,7 +262,9 @@ INSERT INTO `tblpengunjung` (`id_pengunjung`, `nm_pengunjung`, `tgl_diagnosa`, `
 (294, 'rahma', '2024-06-01', 'Adanya ngengat dipertanaman dan larva didalam batang padi, Adanya beluk (malai hampa), Anakan mati yang disebut sundep pada tanaman stadia vegetative, Kerusakan berada pada batang padi', 'Penggerek Batang Padi (Stem Borer)', 100.00, 'Pengobatan untuk penggerek batang padi meliputi penggunaan varietas tahan, praktek budidaya yang baik, pengendalian hayati, insektisida nabati, pemantauan rutin, dan penggunaan insektisida atau fungisida sesuai kebutuhan.'),
 (292, 'mama', '2024-06-01', 'Adanya beluk (malai hampa), Anakan mati yang disebut sundep pada tanaman stadia vegetative, Kerusakan berada pada batang padi', 'Penggerek Batang Padi (Stem Borer)', 100.00, 'Pengobatan untuk penggerek batang padi meliputi penggunaan varietas tahan, praktek budidaya yang baik, pengendalian hayati, insektisida nabati, pemantauan rutin, dan penggunaan insektisida atau fungisida sesuai kebutuhan.'),
 (225, 'Rahma', '2024-05-30', 'Demam, Sakit kepala, Batuk Kering, Nafsu Makan Berkurang', 'Cacar Air', 51.00, 'Mandi menggunakan air hangat, Menggunakan lotion dari dokter pada daerah yang gatal, Istirahat yang cukup, Makan makanan yang bergizi '),
-(228, 'rahma', '2024-05-30', 'Nafsu Makan Berkurang, Batuk Kering, Sakit kepala, Demam, Gatal Pada Kulit Seperti Bekas Gigitan Serangga, Bersin', 'Cacar Air', 51.00, 'Mandi menggunakan air hangat, Menggunakan lotion dari dokter pada daerah yang gatal, Istirahat yang cukup, Makan makanan yang bergizi ');
+(228, 'rahma', '2024-05-30', 'Nafsu Makan Berkurang, Batuk Kering, Sakit kepala, Demam, Gatal Pada Kulit Seperti Bekas Gigitan Serangga, Bersin', 'Cacar Air', 51.00, 'Mandi menggunakan air hangat, Menggunakan lotion dari dokter pada daerah yang gatal, Istirahat yang cukup, Makan makanan yang bergizi '),
+(0, 'rhma', '2024-09-22', 'Batang kosong atau berongga, Daun memiliki bercak coklat, Kerusakan pada batang, Kehadiran serangga kecil berwarna putih pada permukaan tanaman, Kehilangan atau pengurangan hasil panen yang drastis', 'Penggerek Batang Padi ', 51.00, 'Pengobatan untuk penggerek batang padi meliputi penggunaan varietas tahan, praktek budidaya yang baik, pengendalian hayati, insektisida nabati, pemantauan rutin, dan penggunaan insektisida atau fungisida sesuai kebutuhan.'),
+(0, 'Rahma', '2024-09-22', 'Batang kosong atau berongga, Daun memiliki bercak coklat, Kerusakan pada batang, Kehadiran serangga kecil berwarna putih pada permukaan tanaman, Kehilangan atau pengurangan hasil panen yang drastis', 'Penggerek Batang Padi ', 51.00, 'Pengobatan untuk penggerek batang padi meliputi penggunaan varietas tahan, praktek budidaya yang baik, pengendalian hayati, insektisida nabati, pemantauan rutin, dan penggunaan insektisida atau fungisida sesuai kebutuhan.');
 
 -- --------------------------------------------------------
 
@@ -266,16 +284,21 @@ CREATE TABLE `tblpenyakit` (
 --
 
 INSERT INTO `tblpenyakit` (`kd_penyakit`, `nm_penyakit`, `nl_penyakit`, `pengobatan`) VALUES
-('P01', 'Penggerek Batang Padi (Stem Borer)', 0.8588, 'Pengobatan untuk penggerek batang padi meliputi penggunaan varietas tahan, praktek budidaya yang baik, pengendalian hayati, insektisida nabati, pemantauan rutin, dan penggunaan insektisida atau fungisida sesuai kebutuhan.'),
-('P02', 'Kepinding Tanah (Scotinophara Coarctata)', 0.7984, 'Pengendalian kepinding tanah dapat dilakukan dengan perbanyakan musuh alami seperti laba-laba dan semut, pengolahan tanah, sanitasi lingkungan, dan penyemprotan insektisida sesuai dosis anjuran.\r\n'),
-('P03', 'Walang Sangit (Leptocorisa Orstorius)', 0.8714, 'Pengendalian walang sangit dapat dilakukan dengan penggunaan varietas tahan, pengelolaan air, penggunaan musuh alami seperti burung dan laba-laba, serta aplikasi insektisida berbahan aktif sesuai anjuran'),
-('P04', 'Tikus (Rattus Argentiventer)', 0.8083, 'Pengendalian tikus dapat dilakukan dengan pemasangan perangkap, penggunaan umpan racun, pengelolaan sanitasi lingkungan, dan penanaman tanaman perangkap.\r\n'),
-('P05', 'Hama Putih (Caseworm)', 0.9, 'Pengendalian hama putih dapat dilakukan dengan penggunaan varietas tahan, pengendalian gulma, serta aplikasi insektisida berbahan aktif sesuai anjuran.\r\n'),
-('P06', 'Ulat Tentara/Grayak (Armyworm)', 0.9, 'Pengendalian ulat tentara dapat dilakukan dengan penggunaan varietas tahan, pengelolaan air, aplikasi insektisida hayati, serta aplikasi insektisida berbahan aktif sesuai anjuran.'),
-('P07', 'Ulat Jengkal-Palsu Hijau(Green Semiloop)', 0.9, 'Pengendalian ulat jengkal-palsu hijau dapat dilakukan dengan penggunaan varietas tahan, penerapan praktik budidaya yang baik, serta aplikasi insektisida berbahan aktif sesuai anjuran.\r\n'),
-('P08', 'Orong-Orong (Mole Cricket)', 0.8771, 'Pengendalian ulat jengkal-palsu hijau dapat dilakukan dengan penggunaan varietas tahan, penerapan praktik budidaya yang baik, serta aplikasi insektisida berbahan aktif sesuai anjuran.\r\n'),
-('P09', 'Lalat Bibit (Rice Whorl Maggot)', 0.9, 'Pengendalian lalat bibit dapat dilakukan dengan penggunaan varietas tahan, pengelolaan air, serta aplikasi insektisida berbahan aktif sesuai anjuran.'),
-('P10', 'Burung (Aves)', 0.8588, 'Pengendalian burung dapat dilakukan dengan pemasangan jaring, pemasangan alat pengusir burung, serta penggunaan bahan kimia penolak burung sesuai anjuran.');
+('P01', 'Penggerek Batang Padi ', 0.8476, 'Pengobatan untuk penggerek batang padi meliputi penggunaan varietas tahan, praktek budidaya yang baik, pengendalian hayati, insektisida nabati, pemantauan rutin, dan penggunaan insektisida atau fungisida sesuai kebutuhan.'),
+('P02', 'Kepinding Tanah ', 0.6368, 'Pengendalian kepinding tanah dapat dilakukan dengan perbanyakan musuh alami seperti laba-laba dan semut, pengolahan tanah, sanitasi lingkungan, dan penyemprotan insektisida sesuai dosis anjuran.\r\n'),
+('P03', 'Walang Sangit ', 0.7533, 'Pengendalian walang sangit dapat dilakukan dengan penggunaan varietas tahan, pengelolaan air, penggunaan musuh alami seperti burung dan laba-laba, serta aplikasi insektisida berbahan aktif sesuai anjuran'),
+('P04', 'Tikus ', 0.7163, 'Pengendalian tikus dapat dilakukan dengan pemasangan perangkap, penggunaan umpan racun, pengelolaan sanitasi lingkungan, dan penanaman tanaman perangkap.\r\n'),
+('P05', 'Hama Putih ', 0.7455, 'Pengendalian hama putih dapat dilakukan dengan penggunaan varietas tahan, pengendalian gulma, serta aplikasi insektisida berbahan aktif sesuai anjuran.\r\n'),
+('P06', 'Ulat Tentara/Grayak ', 0.8083, 'Pengendalian ulat tentara dapat dilakukan dengan penggunaan varietas tahan, pengelolaan air, aplikasi insektisida hayati, serta aplikasi insektisida berbahan aktif sesuai anjuran.'),
+('P07', 'Ulat Jengkal Palsu Hijau ', 0.8063, 'Pengendalian ulat jengkal-palsu hijau dapat dilakukan dengan penggunaan varietas tahan, penerapan praktik budidaya yang baik, serta aplikasi insektisida berbahan aktif sesuai anjuran.\r\n'),
+('P08', 'Orong-Orong ', 0.8083, 'Pengendalian ulat jengkal-palsu hijau dapat dilakukan dengan penggunaan varietas tahan, penerapan praktik budidaya yang baik, serta aplikasi insektisida berbahan aktif sesuai anjuran.\r\n'),
+('P09', 'Lalat Bibit ', 0.7095, 'Pengendalian lalat bibit dapat dilakukan dengan penggunaan varietas tahan, pengelolaan air, serta aplikasi insektisida berbahan aktif sesuai anjuran.'),
+('P10', 'Burung ', 0.9, 'Pengendalian burung dapat dilakukan dengan pemasangan jaring, pemasangan alat pengusir burung, serta penggunaan bahan kimia penolak burung sesuai anjuran.'),
+('P11', 'Jamur Cochliobolus miyabeanus', 0.7143, 'Untuk mengatasi penyakit bercak daun coklat yang disebabkan oleh Cochliobolus miyabeanus, gunakan varietas padi yang tahan, praktikkan rotasi tanaman, kelola irigasi dengan baik, dan aplikasikan fungisida sesuai petunjuk.'),
+('P12', 'Tungro', 0.7455, 'Untuk mengatasi penyakit Tungro pada padi, gunakan varietas padi yang tahan, kontrol vektor seperti wereng hijau dengan insektisida, dan lakukan rotasi tanaman untuk memutus siklus penyakit.'),
+('P13', 'Penyakit Karat', 0.7783, 'Untuk mengatasi penyakit karat pada padi, gunakan varietas tahan karat, aplikasi fungisida yang sesuai, dan praktikkan rotasi tanaman untuk mengurangi infeksi jamur.'),
+('P14', 'Kerusakan Akibat Cuaca', 0.7, 'Untuk mengatasi kerusakan akibat cuaca pada padi, tingkatkan perlindungan tanaman dengan pemilihan lokasi yang baik, penggunaan penutup tanaman, dan perbaikan drainase.'),
+('P15', 'Jamur Hitam', 0.7, 'Untuk mengatasi jamur hitam pada padi, gunakan varietas tahan, aplikasikan fungisida sesuai petunjuk, dan jaga kebersihan lingkungan serta drainase.');
 
 --
 -- Indexes for dumped tables
@@ -294,12 +317,6 @@ ALTER TABLE `tblgejala`
   ADD PRIMARY KEY (`kd_gejala`);
 
 --
--- Indexes for table `tblpengunjung`
---
-ALTER TABLE `tblpengunjung`
-  ADD PRIMARY KEY (`id_pengunjung`);
-
---
 -- Indexes for table `tblpenyakit`
 --
 ALTER TABLE `tblpenyakit`
@@ -313,13 +330,7 @@ ALTER TABLE `tblpenyakit`
 -- AUTO_INCREMENT for table `tblaturan`
 --
 ALTER TABLE `tblaturan`
-  MODIFY `kd_aturan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=177;
-
---
--- AUTO_INCREMENT for table `tblpengunjung`
---
-ALTER TABLE `tblpengunjung`
-  MODIFY `id_pengunjung` int(7) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=314;
+  MODIFY `kd_aturan` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=233;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;

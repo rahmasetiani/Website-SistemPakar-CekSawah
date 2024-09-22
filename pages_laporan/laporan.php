@@ -166,4 +166,3 @@ $query_lap = mysqli_query($konek, "SELECT * FROM tblpengunjung ORDER BY tgl_diag
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
-
